@@ -40,11 +40,12 @@ public class testTask {
     public void deleteTaskTest(){
         
         Task task = new Task("Comer","2211","otro","high","Emilio");
+        Task task1 = new Task("Comer","2211","otro","high","Emilio1");
         TaskOperation to = new TaskOperation();
         
         to.saveTask(task);
         
-        assertTrue(to.compareTaskList(task));
+        assertTrue(to.compareTaskList(task1));
          
          to.deleteTask(task);
         
