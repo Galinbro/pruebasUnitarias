@@ -40,7 +40,7 @@ public class testTask {
     public void deleteTaskTest(){
         
         Task task = new Task("Comer","2211","otro","high","Emilio");
-        Task task1 = new Task("Comer","2211","otro","high","Emilio2");
+        Task task1 = new Task("Comer","2211","otro","high","Emi");
         TaskOperation to = new TaskOperation();
         
         to.saveTask(task);
